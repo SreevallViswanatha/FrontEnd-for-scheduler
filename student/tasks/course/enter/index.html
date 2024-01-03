@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js" type="module"></script>
+</head>
+
+<body>
+  <h1 class="myh1"></h1>
+  <!-- <div class="container mt-5">
+    <div class="row">
+      <div class="col">Name</div>
+      <div class="col">Start Timer</div>
+      <div class="col">End Timer</div>
+      <div class="col">Start Time</div>
+      <div class="col">End Time</div>
+      <div class="col">Time Elapsed</div>
+      <div class="col">Time Taken</div>
+    </div>
+  </div> -->
+  <div class="container">
+    <table>
+      <tr>
+        <td class="starting-cell">Start/Pause/Resume Timer</td>
+        <td class="start-pause-cell">
+          <button class="start-timer btn">
+            <img src="play-icon.png" /></button
+          ><button class="pause-timer hidden btn btn-secondary">
+            <img src="pause-icon.png" />
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td class="starting-cell">End Timer</td>
+        <td>
+          <button class="end-timer btn-disable btn" disabled="true">
+            <img src="stop-icon.png" />
+          </button>
+        </td>
+      </tr>
+      <form class="form-element">
+        <tr>
+          <td class="starting-cell">Start Time</td>
+          <td>
+            <input
+              type="text"
+              class="seem-non-editable start-time"
+              name="startTimes"
+              disabled="true"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="starting-cell">End Time</td>
+          <td>
+            <input
+              class="end-time seem-non-editable"
+              name="endTimes"
+              disabled="true"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="starting-cell">Time Elapsed</td>
+          <td>
+            <input
+              class="time-elapsed seem-non-editable"
+              name="timeElapsed"
+              disabled="true"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="starting-cell">Time Taken</td>
+          <td>
+            <input
+              class="time-taken seem-non-editable"
+              name="timeTaken"
+              disabled="true"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="starting-cell">Work Description</td>
+          <td>
+            <textarea
+              class="work-description btn-disable"
+              disabled="true"
+              name="workDescription"
+            ></textarea>
+          </td>
+        </tr>
+      </form>
+    </table>
+  </div>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"
+  ></script>
+</body>

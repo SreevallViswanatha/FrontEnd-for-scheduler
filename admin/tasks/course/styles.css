@@ -1,0 +1,156 @@
+.myh1 {
+  text-align: center;
+  color: white;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 150px;
+  background-image: linear-gradient(to right bottom, lightgray, #6d6d6d);
+}
+
+td,
+th {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.arrow-icon {
+  height: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.edit-icon {
+  height: 10px;
+}
+
+.workDescription,
+.results,
+.comments,
+.works {
+  cursor: pointer;
+}
+
+.table-row-inactive {
+  cursor: not-allowed;
+}
+
+.table-row-active {
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.add-records,
+.sort-button {
+  background-color: lightgray;
+  color: rgba(40, 180, 133, 0.8);
+}
+
+.add-records:hover,
+.add-records:active,
+.sort-button:active,
+.sort-button:hover {
+  background-color: rgba(40, 180, 133, 0.8);
+  color: #fff;
+}
+
+body {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(40, 180, 133, 0.8),
+    #285838
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.edit-button {
+  background-color: rgba(40, 180, 133, 0.8);
+  color: #fff;
+}
+
+.edit-button:hover {
+  border: 2px solid rgba(40, 180, 133, 0.8);
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+}
+
+.preserving {
+  white-space: pre-wrap;
+}
+
+.color-pink {
+  background-color: pink;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-orange {
+  background-color: orange;
+}
+
+.color-yellow {
+  background-color: yellow;
+}
+
+.color-green {
+  background-color: chartreuse;
+}
+
+.color-blue {
+  background-color: skyblue;
+}
+
+.my-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: 1000px;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  overflow: scroll;
+  white-space: pre-wrap;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}

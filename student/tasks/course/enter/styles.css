@@ -1,0 +1,104 @@
+body,
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.seem-non-editable {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.myh1 {
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn-disable {
+  cursor: not-allowed;
+}
+
+.input-disabled {
+  cursor: not-allowed;
+}
+
+.starting-cell {
+  font-weight: bold;
+}
+
+.txta {
+  width: 100%;
+  max-width: 500px;
+  min-height: 100px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.success-text {
+  color: green;
+}
+
+.failure-text {
+  color: red;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
+}
+
+td {
+  background-color: lightgray;
+  color: #25723d;
+}
+
+.header {
+  background-color: rgba(40, 180, 133, 0.8);
+  color: #fff;
+}
+
+.btn {
+  background-color: lightgray;
+  border: 2px solid rgba(40, 180, 133, 0.8);
+}
+
+.btn:hover {
+  background-color: rgba(40, 180, 133, 0.8);
+  color: white;
+}
+
+.complete-task,
+.complete-task:active {
+  background-color: rgba(40, 180, 133, 0.8);
+  color: #fff;
+}
+
+body {
+  background-image: linear-gradient(to right bottom, lightgray, #2c2c2c);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body,
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
