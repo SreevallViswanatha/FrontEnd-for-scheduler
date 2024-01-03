@@ -1,6 +1,6 @@
-// export const baseUrl =
-//   "https://k4k3f0n17e.execute-api.us-east-2.amazonaws.com/dev";
-export const baseUrl = "http://127.0.0.1:3000";
+export const baseUrl =
+  "https://k4k3f0n17e.execute-api.us-east-2.amazonaws.com/dev";
+// export const baseUrl = "http://127.0.0.1:3000";
 
 export const sendAPI = async function (
   typeOfRequest,
